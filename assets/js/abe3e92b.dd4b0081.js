@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkinvestigations=self.webpackChunkinvestigations||[]).push([[3817],{1568:i=>{i.exports=JSON.parse('{"label":"interchain","permalink":"/investigations/blog/tags/interchain","allTagsPath":"/investigations/blog/tags","count":1}')}}]);

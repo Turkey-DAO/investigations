@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkinvestigations=self.webpackChunkinvestigations||[]).push([[4833],{2915:s=>{s.exports=JSON.parse('{"label":"cosmos","permalink":"/investigations/blog/tags/cosmos","allTagsPath":"/investigations/blog/tags","count":1}')}}]);
