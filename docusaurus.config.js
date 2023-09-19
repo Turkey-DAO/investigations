@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Turkey DAO Investigations',
-  tagline: 'Free Range Investigation Agency',
+  tagline: 'Free Range Interchain Detective Agency (FRIDA)', 
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
