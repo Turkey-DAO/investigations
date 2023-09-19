@@ -7,8 +7,11 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Turkey DAO Investigations',
-  tagline: 'Free Range Interchain Detective Agency (FRIDA)', 
+  tagline: 'Foul Play Requires Fowl Action ',
   favicon: 'img/favicon.ico',
+  customFields: {
+    description: 'Free Range Interchain Detective Agency (FRIDA)',
+  },
 
   // Set the production url of your site here
   url: 'https://github.com',
@@ -24,6 +27,7 @@ const config = {
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
+  trailingSlash: true,
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -65,23 +69,23 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'Turkey DAO Investigations',
+        title: 'Turkey DAO',
         logo: {
           alt: 'Turkey DAO Logo',
-          src: 'img/logo.svg',
+          src: 'img/logo.png',
         },
         items: [
+          {to: '/blog', label: 'Investigations', position: 'left'},
+          {
+            href: 'https://twitter.com/theTurkeyDAO',
+            label: 'Report Something',
+            position: 'right',
+          },
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
-          },
-          {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
+            label: 'Contribute',
           },
         ],
       },
@@ -98,19 +102,11 @@ const config = {
             ],
           },
           {
-            title: 'Community',
+            title: 'Socials',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
                 label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                href: 'https://twitter.com/theturkeydao',
               },
             ],
           },
@@ -123,12 +119,12 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/Turkey-DAO',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Bird Copyright ${new Date().getFullYear()}. Turkey DAO is a Totally Legimitate Organization. All Bird Rights Reserved. `,
       },
       prism: {
         theme: lightCodeTheme,

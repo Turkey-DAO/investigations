@@ -1,8 +1,14 @@
 endi:
-  name: Endilie Yacop Sucipto
-  title: Maintainer of Docusaurus
-  url: https://github.com/endiliey
+  name: Ray Raspberry
+  title: Head of Research
+  url: https://github.com/rayraspberry
   image_url: https://github.com/endiliey.png
+
+rayraspberry:
+  name: Ray Raspberry
+  title: Head of Research
+  url: https://github.com/rayraspberry
+  image_url: https://github.com/rayraspberry.png
 
 yangshun:
   name: Yangshun Tay
