@@ -4,19 +4,20 @@
         <title>Turkey DAO Investigations Blog</title>
         <link>https://github.com/investigations/blog</link>
         <description>Turkey DAO Investigations Blog</description>
-        <lastBuildDate>Thu, 26 Aug 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 08 Oct 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
-            <title><![CDATA[Welcome to Investigations & Incidents]]></title>
+            <title><![CDATA[Welcome to Investigations]]></title>
             <link>https://github.com/investigations/blog/welcome</link>
             <guid>https://github.com/investigations/blog/welcome</guid>
-            <pubDate>Thu, 26 Aug 2021 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 08 Oct 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[Turkey DAO Logo]]></description>
             <content:encoded><![CDATA[<p><img loading="lazy" alt="Turkey DAO Logo" src="/investigations/assets/images/logo-large-transparent-c4f5f22bb7b6f43459fb02d6d8bd5eea.png" width="1024" height="1024" class="img_ev3q"></p><p>Incident and Investigation Archive for the Interchain</p>]]></content:encoded>
             <category>investigation</category>
-            <category>archive</category>
+            <category>incident</category>
+            <category>welcome</category>
             <category>interchain</category>
             <category>cosmos</category>
         </item>

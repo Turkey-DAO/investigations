@@ -2,16 +2,16 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://github.com/investigations/blog</id>
     <title>Turkey DAO Investigations Blog</title>
-    <updated>2021-08-26T00:00:00.000Z</updated>
+    <updated>2023-10-08T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://github.com/investigations/blog"/>
     <subtitle>Turkey DAO Investigations Blog</subtitle>
     <icon>https://github.com/investigations/img/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[Welcome to Investigations & Incidents]]></title>
+        <title type="html"><![CDATA[Welcome to Investigations]]></title>
         <id>https://github.com/investigations/blog/welcome</id>
         <link href="https://github.com/investigations/blog/welcome"/>
-        <updated>2021-08-26T00:00:00.000Z</updated>
+        <updated>2023-10-08T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Turkey DAO Logo]]></summary>
         <content type="html"><![CDATA[<p><img loading="lazy" alt="Turkey DAO Logo" src="/investigations/assets/images/logo-large-transparent-c4f5f22bb7b6f43459fb02d6d8bd5eea.png" width="1024" height="1024" class="img_ev3q"></p><p>Incident and Investigation Archive for the Interchain</p>]]></content>
         <author>
@@ -19,7 +19,8 @@
             <uri>https://github.com/Turkey-DAO</uri>
         </author>
         <category label="investigation" term="investigation"/>
-        <category label="archive" term="archive"/>
+        <category label="incident" term="incident"/>
+        <category label="welcome" term="welcome"/>
         <category label="interchain" term="interchain"/>
         <category label="cosmos" term="cosmos"/>
     </entry>

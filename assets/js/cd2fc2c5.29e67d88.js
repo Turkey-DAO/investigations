@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkinvestigations=self.webpackChunkinvestigations||[]).push([[917],{543:e=>{e.exports=JSON.parse('{"permalink":"/investigations/blog/tags/welcome","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkinvestigations=self.webpackChunkinvestigations||[]).push([[39],{4973:t=>{t.exports=JSON.parse('{"permalink":"/investigations/blog/tags/incident","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
