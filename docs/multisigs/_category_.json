@@ -1,0 +1,8 @@
+{
+  "label": "MultiSig Wallets",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "description": "A list of multiple signer contracts and their membership."
+  }
+}

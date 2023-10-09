@@ -3,6 +3,6 @@
   "position": 2,
   "link": {
     "type": "generated-index",
-    "description": "A list of known wallet assets by chain."
+    "description": "A list of verified individual key addresses."
   }
 }

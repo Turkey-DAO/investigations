@@ -12,6 +12,14 @@ Known and verified address assets.
 
 Known and verified contract assets.
 
+## Multi-signer Contracts
+
+Known and verified contract assets.
+
+## DAOs
+
+Known and verified contract assets.
+
 ## Validator Assets
 
 Known and verified validator assets.
