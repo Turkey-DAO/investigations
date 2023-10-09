@@ -1,8 +1,9 @@
 ---
 slug: welcome
-title: Welcome to Investigations & Incidents
+title: Welcome to Investigations
 authors: [turkeydao]
-tags: [investigation, archive, interchain, cosmos]
+tags: [investigation, incident, welcome, interchain, cosmos]
+date: 2023-10-08
 ---
 
 ![Turkey DAO Logo](./logo-large-transparent.png)
