@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Turkey DAO Investigations',
-  tagline: 'Foul Play Requires Fowl Action ',
+  tagline: 'Foul Play Demands Fowl Action ',
   favicon: 'img/favicon.ico',
   customFields: {
     description: 'Free Range Interchain Detective Agency (FRIDA)',
@@ -47,14 +47,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/Turkey-DAO/investigations/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/Turkey-DAO/investigations/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -67,25 +67,25 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/logo.png',
       navbar: {
-        title: 'Turkey DAO',
+        title: 'Turkey DAO Investigates',
         logo: {
           alt: 'Turkey DAO Logo',
           src: 'img/logo.png',
         },
         items: [
-          {to: '/blog', label: 'Investigations', position: 'left'},
+          {to: '/blog', label: 'Incidents', position: 'left'},
+          {
+            type: 'docSidebar',
+            sidebarId: 'recordsSidebar',
+            position: 'left',
+            label: 'Records',
+          },
           {
             href: 'https://twitter.com/theTurkeyDAO',
             label: 'Report Something',
             position: 'right',
-          },
-          {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'Contribute',
           },
         ],
       },
@@ -93,12 +93,20 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Categories',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Incidents',
+                to: '/blog',
+              },              
+              {
+                label: 'Records',
+                to: '/docs',
               },
+              {
+                label: 'Contribute',
+                href: 'https://github.com/Turkey-DAO/investigations/',
+              }
             ],
           },
           {
@@ -109,26 +117,13 @@ const config = {
                 href: 'https://twitter.com/theturkeydao',
               },
             ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/Turkey-DAO',
-              },
-            ],
-          },
+          }
         ],
-        copyright: `Bird Copyright ${new Date().getFullYear()}. Turkey DAO is a Totally Legimitate Organization. All Bird Rights Reserved. `,
+        copyright: `Turkey DAO is a Totally Legimitate Organization. All Bird Law Rights Reserved. `,
       },
       prism: {
-        theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
+        theme: darkCodeTheme,
+        darkTheme: lightCodeTheme,
       },
     }),
 };
