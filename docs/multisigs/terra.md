@@ -4,7 +4,7 @@ sidebar_position: 7
 
 # Terra
 
-Terra is a decentralized stablecoin network that uses seigniorage created by its stablecoin, LUNA, to stabilize the value of its stablecoins. Terra's stablecoins offer instant settlements, low fees, and seamless cross-border exchange.
+Terra is a decentralized network.
 
 :::tip 
 Click on an address to open it in [Chainsco.pe](https://chainsco.pe/).
